@@ -18,7 +18,7 @@
 		<link>
 			<name>README.md</name>
 			<type>1</type>
-			<location>C:/1fgl/repo/EclipseOxygen_V02/Project_PYZRepositoryDummyTemplate/README.md</location>
+			<locationURI>PARENT-1-PROJECT_LOC/README.md</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
