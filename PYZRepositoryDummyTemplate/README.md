@@ -1,8 +1,15 @@
 # PYZRepositoryDummyTemplate
 Python3 FGL
 
-Template File für die Defaultstruktur.
-Wie man den Ordner umbenennt siehe JAZRepositoryDummyTemplate
+-----------------------------------------------------------------------------------
+Neues Repository anhand dieser Vorlage erstellen, das Jython kann.<BR>
+Merke: Üblicherweise fange ich die Repository Namen mit "Project_" an.
+
+-------------------------------
+Hier ist die Beschreibung wie diese Projekt anhand einer Vorlage erstellt wurde.<BR>
+Zudem ist dort auch die Berschreibung von Besonderheiten / Sinn von einigen Ordner, etc.<BR>
+https://github.com/firak01/Project_JAZRepositoryDummyTemplate#projekt_jazrepositorydummytemplate
+
 
 -------------------------------------
 ------------
