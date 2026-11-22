@@ -12,8 +12,24 @@ https://github.com/firak01/Project_JAZRepositoryDummyTemplate#projekt_jazreposit
 
 
 -------------------------------------
+Es gilt die Konvention:<BR>
+Debug Scripte, die mit JYZ enden als Jython starten.<BR>
+Debug Scripte, die mit PYZ enden alsl Python starten.<BR>
+
+Für die Nutzung der Klassen aus anderen Projekten gilt:<BR>
+Der PythonPath wird durch die Angabe der Sourcefolder zwar erweitert.<BR>
+Wenn es aber identische Pfade in einen anderen/zweiten Sourcefolder (z.B. tryout) gibt, 
+dann werden die Klassen darin nicht gefunden.<BR>
+Grund: Die Reihenfolge der Sourcefolder, die man im Eclipse Projekt angibt ist wichtig. Nur der oberste gilt!!!!
+<BR>
+Das kann man testen. Es gibt im src Sourcefolder und im tryout Sourcefolder jeweils eine pyz.Hello....PYZ Klasse.<BR>
+Nur die aus sem src Sourcefolder ist aus einem anderen Pythonprojekt importierbar über:<BR>
+
+
+
+-------------------------------------
 ------------
-F�r die Benennung der pyDev Package-Namen:
+Für die Benennung der pyDev Package-Namen:
 Es gab Probleme beim import, wenn der Packagname openai lautete.
 
 Was ist hier passiert?
