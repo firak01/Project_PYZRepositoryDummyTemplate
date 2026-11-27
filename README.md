@@ -25,7 +25,16 @@ Grund: Die Reihenfolge der Sourcefolder, die man im Eclipse Projekt angibt ist w
 Das kann man testen. Es gibt im src Sourcefolder und im tryout Sourcefolder jeweils eine pyz.Hello....PYZ Klasse.<BR>
 Nur die aus sem src Sourcefolder ist aus einem anderen Pythonprojekt importierbar über:<BR>
 
-
+-------------------------------------
+Wichtig:<BR>
+Wenn man mit Python Packages arbeitet und Java oder Jython Klassen einbindet,<BR>
+dann gibt es sogar einen Namenskonflikt, wenn die Klassen unterschiedlich heissen.<BR>
+Damit das nicht geschieht müssen die Package-Pfade unterschiedlich lauten.<BR>
+<BR>
+Daher werden bei den Python Projekten<BR>
+ein pyz Package als Einstieg verwenden.<BR>
+<BR>
+Projekte, die das PYZKernelEngine- Projekt nutzen, brauchen wiederum ihren eigenen Namespace, z.B. pyz2 als Startpackage
 
 -------------------------------------
 ------------
